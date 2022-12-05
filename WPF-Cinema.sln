@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-Cinema", "WPF-Cinema\WPF-Cinema.csproj", "{132A9235-3E6C-45FE-AF19-A6307F743A9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{132A9235-3E6C-45FE-AF19-A6307F743A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132A9235-3E6C-45FE-AF19-A6307F743A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132A9235-3E6C-45FE-AF19-A6307F743A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132A9235-3E6C-45FE-AF19-A6307F743A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45BD0F6D-EF78-49E6-A661-79331F15AE68}
+	EndGlobalSection
+EndGlobal
