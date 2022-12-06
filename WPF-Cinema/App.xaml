@@ -4,6 +4,12 @@
              xmlns:local="clr-namespace:WPF_Cinema"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Dictionaries\FontSize.xaml"/>
+                <ResourceDictionary Source="Dictionaries\ForeColor.xaml"/>
+                <ResourceDictionary Source="Dictionaries\BackColor.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -6,7 +6,47 @@
         xmlns:local="clr-namespace:WPF_Cinema.View"
         mc:Ignorable="d"
         Title="InformationFilm" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <ScrollViewer HorizontalScrollBarVisibility="Auto">
+        <StackPanel>
+            <Canvas Width="250" Height="150">
+                <Image Stretch="Fill"
+                       Source="{Binding Movie.Poster,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                       Width="250"
+                       Height="150">
+                    <Image.Effect>
+                        <BlurEffect Radius="15" KernelType="Gaussian"/>
+                    </Image.Effect>
+
+                </Image>
+                <Image Canvas.Left="25"
+                       Panel.ZIndex="10"
+                       Canvas.Top="15"
+                       Source="{Binding Movie.Poster,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                       Width="200"
+                       Height="120"/>
+            </Canvas>
+
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Title: "
+                       FontSize="{StaticResource labelSize}"
+                       FontWeight="Medium"
+                       Foreground="{StaticResource foreColorTitle}"/>
+                <Label Content="{Binding Movie.Title, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                       FontSize="{StaticResource labelSize}"
+                       FontWeight="Medium"
+                       Foreground="{StaticResource  foreColorTitle2}"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Writer: "
+                       FontSize="{StaticResource labelSize}"
+                       FontWeight="Medium"
+                       Foreground="{StaticResource foreColorTitle}"/>
+                <Label Content="{Binding Movie.Writer, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                       FontSize="{StaticResource labelSize}"
+                       FontWeight="Medium"
+                       Foreground="{StaticResource foreColorTitle2}"/>
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
 </Window>
