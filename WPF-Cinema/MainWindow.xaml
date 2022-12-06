@@ -82,7 +82,6 @@
                     <TextBox Grid.Column="0"
                              Margin="0 15"
                              Name="TextBox_Search"
-                             Text="SEARCH"
                              BorderThickness="0"
                              FontSize="{StaticResource labelSize}"
                              Foreground="{StaticResource foreColorTitle}"

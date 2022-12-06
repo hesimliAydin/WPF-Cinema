@@ -16,4 +16,8 @@
     <Resource Include="icons8-search-30.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="MovieDataBase\" />
+  </ItemGroup>
+
 </Project>

@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Cinema.View"
         mc:Ignorable="d"
-        Title="InformationFilm" Height="450" Width="800">
+        Title="InformationFilm" Height="400" Width="500">
     <ScrollViewer HorizontalScrollBarVisibility="Auto">
-        <StackPanel>
+        <StackPanel Background="DarkSeaGreen">
             <Canvas Width="250" Height="150">
                 <Image Stretch="Fill"
                        Source="{Binding Movie.Poster,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
